@@ -1,0 +1,9 @@
+python mymain.py 
+--exp_name 'kg-adapterV4_lr5e-4_obqa_v2' 
+--peft_type 'kg-adapter' 
+--lr 5e-4 
+--warm_up_epoch 0.1 
+--strategy 'deepspeed'
+--pretrained_path '/data/huggingface/models/meta-llama_llama-2-7b-hf' 
+--kg_adapter_node_emb_size 1024 
+--save_top_k 3 
